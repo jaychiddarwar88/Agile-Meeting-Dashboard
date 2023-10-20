@@ -1,0 +1,14 @@
+# Eclipse project files
+.classpath
+.project
+.settings/
+
+# Compiled output
+bin/
+build/
+
+# Libraries
+lib/
+
+# Local configuration files
+*.properties
