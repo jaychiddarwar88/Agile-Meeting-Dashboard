@@ -13,4 +13,5 @@ lib/
 # Local configuration files
 *.properties
 
-emailhandler.java
+
+src/agilemeetingdash/emailhandler/emailhandler.java
