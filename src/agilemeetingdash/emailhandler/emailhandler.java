@@ -16,8 +16,8 @@ import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 
 public class emailhandler {
-	private static String USER_NAME = "";  // GMail user name (just the part before "@gmail.com")
-    private static String PASSWORD = ""; // GMail password
+	private static String USER_NAME = "vsoftagilemeetdash@gmail.com";  // GMail user name (just the part before "@gmail.com")
+    private static String PASSWORD = "jay@8888j88"; // GMail password
   public static void sendmail(String emailto ) throws IOException {
 	  String from = USER_NAME;
       String pass = PASSWORD;

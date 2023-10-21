@@ -3,6 +3,7 @@ package agilemeetingdash.dto;
 import java.sql.Connection; 
 
 import java.sql.DriverManager; 
+//import com.mysql.cj.jdbc.Driver
 import java.sql.SQLException; 
   
 // This class can be used to initialize the database connection 
@@ -24,9 +25,9 @@ public class databaseconn {
     		String dbDriver = "com.mysql.jdbc.Driver"; 
             String dbURL = "jdbc:mysql://localhost:3306/"; 
             // Database name to access 
-            String dbName = "agilemeeting?serverTimezone=UTC"; 
+            String dbName = "agilemeeting"; 
             String dbUsername = "root"; 
-            String dbPassword = "root"; 
+            String dbPassword = "Jay@8888"; 
 
             Class.forName(dbDriver); 
             Connection con = DriverManager.getConnection(dbURL + dbName, 

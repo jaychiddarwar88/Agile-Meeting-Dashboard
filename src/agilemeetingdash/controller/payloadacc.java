@@ -22,7 +22,6 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import agilemeetingdash.dto.databaseconn;
-import jdk.nashorn.internal.parser.JSONParser;
 
 @WebServlet("/payload")
 public class payloadacc extends HttpServlet{

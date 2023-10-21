@@ -3,7 +3,6 @@ package agilemeetingdash.controller;
 import java.io.IOException;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
-import java.sql.ResultSet;
 import java.sql.Statement;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -15,9 +14,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+
+
 import agilemeetingdash.dto.audittrail;
 import agilemeetingdash.dto.databaseconn;
-import agilemeetingdash.dto.hikariconn;
 
 @WebServlet("/addmember")
 //@WebServlet("/agilemeetingdash/addmember")
